@@ -1,0 +1,58 @@
+Phase I Trials Statistical Analysis
+  Primary Focus: Safety and Dose-Determination
+    1. Descriptive Statistics
+       - Summarize the demographics and baseline characteristics of the participants.
+       - Present the frequency and severity of adverse events (AEs).
+    2. Dose-Escalation Analysis
+       - 3+3 Design
+         + Analyze the number of patients experiencing dose-limiting toxicities (DLTs) at each dose level.
+         + Determine the maximum tolerated dose (MTD) based on the occurrence of DLTs.
+       - Continual Reassessment Method (CRM)
+         + Use Bayesian methods to continually update the probability of toxicity at each dose level.
+         + Estimate the MTD using all accumulated data.
+    3. Pharmacokinetic (PK) Analysis
+       - Analyze blood samples to determine the drug’s absorption, distribution, metabolism, and excretion.
+       - Use non-compartmental or compartmental models to estimate PK parameters (e.g., Cmax, Tmax, AUC).
+    4. Pharmacodynamic (PD) Analysis
+       - Analyze biomarkers to understand the drug’s biological effect.
+       - Use statistical models to correlate PK and PD data.
+
+Phase II Trials Statistical Analysis
+  Primary Focus: Efficacy and Further Safety Evaluation
+    1. Descriptive Statistics
+       - Similar to Phase I, summarize participant demographics and baseline characteristics.
+       - Provide a detailed summary of AEs and serious adverse events (SAEs).
+    2. Efficacy Analysis
+       - Single-Arm Trials
+         + Calculate the proportion of patients achieving a predefined response (e.g., tumor shrinkage).
+         + Use confidence intervals to estimate the precision of the response rate.
+       - Randomized Trials
+         + Compare the efficacy between treatment and control groups using appropriate statistical tests (e.g., chi-square test for binary outcomes, t-test or Mann-Whitney U test for continuous outcomes).
+         + Calculate and interpret relative risk, odds ratio, or hazard ratio as applicable.
+    3. Simon’s Two-Stage Design
+       - Stage 1: Analyze interim data to decide whether to continue to Stage 2 based on predefined criteria (e.g., number of responses).
+       - Stage 2: If continued, analyze the combined data from both stages to assess efficacy.
+       - Calculate exact binomial confidence intervals for response rates.
+    4. Bayesian Adaptive Designs
+       - Update the probability of treatment success as data accumulates.
+       - Make decisions on dose adjustments or trial continuation based on posterior probabilities.
+    5. Interim Analyses
+       - Conduct pre-planned interim analyses to evaluate early efficacy and safety.
+       - Use stopping rules to decide whether to terminate the trial early for success or futility.
+
+Key Statistical Methods and Techniques
+  1. Survival Analysis
+     - Use Kaplan-Meier curves to estimate survival functions.
+     - Apply log-rank tests to compare survival between groups.
+     - Use Cox proportional hazards models to adjust for covariates.
+  2. Handling Missing Data
+     - Apply methods such as multiple imputation or mixed-effects models to handle missing data.
+     - Conduct sensitivity analyses to assess the impact of missing data on results.
+  3. Multiplicity Adjustments
+     - Apply methods like the Bonferroni correction or false discovery rate (FDR) control to adjust for multiple comparisons and control the type I error rate.
+  4. Exploratory Analyses
+     - Conduct subgroup analyses to explore efficacy and safety in different patient populations.
+     - Use graphical methods like forest plots to visualize subgroup effects.
+  5. Software and Tools
+     - Use statistical software like R, SAS, or SPSS for data analysis.
+     - Implement specialized packages for specific analyses (e.g., survival analysis, Bayesian methods).
