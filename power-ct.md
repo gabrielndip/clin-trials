@@ -1,7 +1,5 @@
-Preparing for an interview for a manager of Biostatistics for clinical trials, especially in a biotechnology company that focuses on antibody-based remedies for rare and chronic indications, requires a solid understanding of several key concepts in sample size and power calculation. Here are some essential points and tips to help you prepare:
-
 ### 1. **Fundamentals of Sample Size Calculation**
-- **Objective**: Understand the purpose of sample size calculation, which is to determine the number of subjects needed to detect a clinically meaningful effect with sufficient power, while minimizing costs and ensuring ethical standards.
+- **Objective**: Understand the purpose of sample size calculation, which is to determine the number of subjects needed to detect a clinically meaningful effect with sufficient power, <ins>while minimizing costs and ensuring ethical standards<\ins>.
 - **Components**:
   - **Effect Size**: The magnitude of the difference or association you expect to detect. This can be based on previous studies, pilot data, or clinical relevance.
   - **Alpha Level (α)**: The probability of making a Type I error (false positive). Commonly set at 0.05.
@@ -40,4 +38,3 @@ Preparing for an interview for a manager of Biostatistics for clinical trials, e
 - **Mock Interviews**: Practice explaining sample size and power calculations in simple terms and how you would approach specific challenges in antibody-based clinical trials.
 - **Stay Updated**: Keep abreast of the latest developments in biostatistics, clinical trial design, and regulatory requirements for biotechnology and rare disease research.
 
-By focusing on these areas, you'll be well-prepared to demonstrate your expertise and suitability for the role of a manager of Biostatistics in a biotechnology company. Good luck with your interview, Gabe!
